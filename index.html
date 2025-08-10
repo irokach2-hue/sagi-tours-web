@@ -4,106 +4,22 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Sagi Tours</title>
-  <meta name="description" content="Private Hebrew/English tours: Jerusalem × Tel Aviv, Masada & Dead Sea, Galilee and more.">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-<header>
-  <div class="container header-inner">
-    <div class="brand">
-      <img src="assets/logo.png" alt="Sagi Tours logo" />
-      <div class="brand-name">Sagi Tours</div>
-    </div>
-    <nav>
-      <a href="#home" data-i="nav_home">בית</a>
-      <a href="#tours" data-i="nav_tours">סיורים</a>
-      <a href="#packages" data-i="nav_packages">חבילות</a>
-      <a href="#contact" data-i="nav_contact">צור קשר</a>
-    </nav>
-    <div class="btn-row">
-      <button id="lang-he" class="lang-btn">HE</button>
-      <button id="lang-en" class="cta">EN</button>
-    </div>
-  </div>
-</header>
+  <div data-include="header.html"></div>
 
-<main id="home" class="container">
-  <section class="hero">
-    <div>
-      <div class="badge" data-i="hero_badge">סיורים פרטיים וקבוצתיים</div>
-      <h1 data-i="hero_title">The Tour of Our Story</h1>
-      <p class="lead" data-i="hero_lead">
-        מסע שמחבר בין ירושלים לתל-אביב – בין קודש לחופש, בין עבר לעתיד. סיורים נקודתיים, יומיים וחבילות של שבוע+.
-      </p>
-      <div class="btn-row" style="margin-top:12px">
-        <a class="cta primary" href="#" data-i="btn_availability">בדיקת זמינות</a>
-        <a class="cta" href="tel:+972501234567" data-i="btn_call">שיחה מהירה</a>
-      </div>
-    </div>
-    <div class="hero-card">
-      <img src="assets/logo.png" alt="Sagi" style="width:64px;height:64px;margin-bottom:6px" />
-      <div>Jerusalem × Tel Aviv · Masada · Dead Sea · Safed · Akko · Eilat</div>
-    </div>
-  </section>
-</main>
+  <main class="container">
+    <div data-include="components/hero.html"></div>
+  </main>
+  <div data-include="components/features.html"></div>
+  <div data-include="components/tours.html"></div>
+  <div data-include="components/packages.html"></div>
+  <div data-include="components/contact.html"></div>
 
-<section class="alt">
-  <div class="container">
-    <h2 data-i="features_title">למה Sagi Tours</h2>
-    <div class="grid features">
-      <div class="card"><strong data-i="f1">מדריך מוסמך דו־לשוני</strong><p data-i="f1d">עברית ואנגלית, עם עומק היסטורי ותרבותי.</p></div>
-      <div class="card"><strong data-i="f2">מסלולים מותאמים אישית</strong><p data-i="f2d">קצב רגוע או קצב גבוה – אתם בוחרים.</p></div>
-      <div class="card"><strong data-i="f3">גמישות מלאה</strong><p data-i="f3d">מחצי יום ועד שבוע+ כולל לוגיסטיקה.</p></div>
-      <div class="card"><strong data-i="f4">איסוף ונוחות</strong><p data-i="f4d">נקודות מפגש נוחות ותחבורה מסודרת.</p></div>
-    </div>
-  </div>
-</section>
+  <div data-include="footer.html"></div>
 
-<section id="tours">
-  <div class="container">
-    <h2 data-i="tours_title">סיורים מומלצים</h2>
-    <div class="grid cards-4">
-      <div class="card"><strong data-i="t1">ירושלים: המוכר והנסתר (4–6 ש׳)</strong><ul><li>Old City, Mount of Olives, hidden quarters</li></ul><a class="cta primary" href="#" data-i="tours_btn">בדוק זמינות</a></div>
-      <div class="card"><strong data-i="t2">תל-אביב–יפו המודרנית (3–5 ש׳)</strong><ul><li>Florentin, Jaffa Port, Bauhaus & beaches</li></ul><a class="cta primary" href="#" data-i="tours_btn">בדוק זמינות</a></div>
-      <div class="card"><strong data-i="t3">מסע שלושת הדתות (יום מלא)</strong><ul><li>Moses–Jesus–Muhammad story</li></ul><a class="cta primary" href="#" data-i="tours_btn">בדוק זמינות</a></div>
-      <div class="card"><strong data-i="t4">מצדה & ים המלח</strong><ul><li>Sunrise at Masada, float at the Dead Sea</li></ul><a class="cta primary" href="#" data-i="tours_btn">בדוק זמינות</a></div>
-    </div>
-  </div>
-</section>
-
-<section id="packages" class="alt">
-  <div class="container">
-    <h2 data-i="packages_title">חבילות מרובות ימים</h2>
-    <div class="grid cards-3">
-      <div class="card"><strong data-i="p1">3 ימים: ליבה עירונית</strong><p data-i="p1d">ירושלים × תל-אביב – עיקרי הסיפור.</p></div>
-      <div class="card"><strong data-i="p2">5 ימים: קודש וחוף</strong><p data-i="p2d">ירושלים, יפו, מצדה, ים המלח.</p></div>
-      <div class="card"><strong data-i="p3">7–8 ימים: מסע ישראל</strong><p data-i="p3d">גליל/טבריה/צפת, עכו, זיכרון, אילת/נגב.</p></div>
-    </div>
-  </div>
-</section>
-
-<section id="contact">
-  <div class="container">
-    <h2 data-i="contact_title">צור קשר</h2>
-    <form id="tailor-form" class="card">
-      <div class="form-row">
-        <input data-i="form_name" placeholder="שם מלא" required />
-        <input data-i="form_email" placeholder="אימייל" type="email" required />
-      </div>
-      <div class="form-row">
-        <input data-i="form_phone" placeholder="טלפון" />
-        <input data-i="form_dates" placeholder="תאריכים משוערים" />
-      </div>
-      <textarea data-i="form_interests" rows="4" placeholder="תחומי עניין"></textarea>
-      <div class="btn-row" style="margin-top:12px">
-        <button class="cta primary" type="submit" data-i="form_send">שליחה</button>
-        <a class="cta" href="https://wa.me/972501234567" data-i="whatsapp">וואטסאפ</a>
-      </div>
-    </form>
-  </div>
-</section>
-
-<footer><div class="container"><small data-i="footer">© 2025 Sagi Tours. כל הזכויות שמורות.</small></div></footer>
-<script src="assets/js/app.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/components.js"></script>
 </body>
 </html>
